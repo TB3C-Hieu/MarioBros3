@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Framework\Utils">
+      <UniqueIdentifier>{6e6d824a-ba38-4613-8126-deb40874cf02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Animation">
+      <UniqueIdentifier>{1441b4da-4a4a-41d8-b1fb-9edde24bf5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Collision">
+      <UniqueIdentifier>{e8ccf1ba-3a96-4375-8698-9fc46698ff4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GameObject">
+      <UniqueIdentifier>{5178ee24-4525-42a4-bcb5-71bfc26788be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Sprite">
+      <UniqueIdentifier>{504ac596-6f65-465c-a4d2-b332aed287a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Scene">
+      <UniqueIdentifier>{80e409e9-5108-490e-a2cb-1bb7b5356e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Game">
+      <UniqueIdentifier>{5a5cd73a-e124-4e22-a417-d5e554da16b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Unit\CollidableObject">
+      <UniqueIdentifier>{6d4bae72-4982-4eab-b889-24693cf5bc63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\CollidableObject\Brick">
+      <UniqueIdentifier>{88d9422a-dd4b-4b88-8839-edc6c57da910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\CollidableObject\Coin">
+      <UniqueIdentifier>{47542bb5-a8d6-4789-9bc8-ce82bdbaa10f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\Mob">
+      <UniqueIdentifier>{bb1bf86d-eaf0-428c-bdeb-5341b25acbf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\Mob\Goomba">
+      <UniqueIdentifier>{f2733359-17dc-4e80-9764-caa4bcb3b715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\CollidableObject\Platform">
+      <UniqueIdentifier>{959fbd32-51aa-40df-9bba-9342acf8a482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\KeyHandler">
+      <UniqueIdentifier>{15bd7722-bcdf-4d29-b618-8ff5146a4148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\CollidableObject\Portal">
+      <UniqueIdentifier>{4d8e1146-c106-4cae-96f4-c6e7f499a21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\Controlable">
+      <UniqueIdentifier>{6dc89827-2e10-41d9-9672-6242e041e1e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\Controlable\Mario">
+      <UniqueIdentifier>{3b070b68-ea14-4fac-934e-c13016b7f36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Map">
+      <UniqueIdentifier>{65a306c6-a5d4-47b2-bbee-3955b7a8e81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\TinyXml">
+      <UniqueIdentifier>{6a65792e-45c9-4bdc-afa2-7c72f58fb9ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\CollidableObject\Pipe">
+      <UniqueIdentifier>{4d455d21-5ff7-4d72-83fc-cbfc5516510a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\CollidableObject\QuestionBrick">
+      <UniqueIdentifier>{55b66d3c-092b-4f6a-9da5-24a43cab3086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\CollidableObject\GhostPlatform">
+      <UniqueIdentifier>{bd424ed7-cc5a-43fb-93ce-a3cb184dd901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\Damager">
+      <UniqueIdentifier>{d2ea1049-332c-4143-aa99-2f0914e9b3a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\Damager\Fireball">
+      <UniqueIdentifier>{4374a052-8a14-4763-92b3-5a083fc1d169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\Mob\Plant">
+      <UniqueIdentifier>{a041c327-a248-4d43-91a9-fb842a59fd5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\Mob\Koopa">
+      <UniqueIdentifier>{9cf667b5-d1f7-41f6-814c-0282a9418412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\Damager\RacoonTail">
+      <UniqueIdentifier>{49d2ced3-4c55-47d5-9420-f117b9cd4827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\CollidableObject\PowerUp">
+      <UniqueIdentifier>{900b885a-5ab0-4314-b750-410828dfbc24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit\CollidableObject\PButton">
+      <UniqueIdentifier>{4d80caf7-a598-42f3-ba44-acdd7d7d0b5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Framework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>Framework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animations.cpp">
+      <Filter>Framework\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Framework\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Framework\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprites.cpp">
+      <Filter>Framework\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Framework\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Framework\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>Framework\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Framework\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Unit\CollidableObject\Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Unit\CollidableObject\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="Goomba.cpp">
+      <Filter>Unit\Mob\Goomba</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Unit\CollidableObject\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleKeyEventHandler.cpp">
+      <Filter>Framework\KeyHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Portal.cpp">
+      <Filter>Unit\CollidableObject\Portal</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario.cpp">
+      <Filter>Unit\Controlable\Mario</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Framework\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyXML\tinyxml\tinystr.cpp">
+      <Filter>Framework\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyXML\tinyxml\tinyxml.cpp">
+      <Filter>Framework\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyXML\tinyxml\tinyxmlerror.cpp">
+      <Filter>Framework\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyXML\tinyxml\tinyxmlparser.cpp">
+      <Filter>Framework\TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Framework\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSet.cpp">
+      <Filter>Framework\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>Unit\CollidableObject\Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestionBrick.cpp">
+      <Filter>Unit\CollidableObject\QuestionBrick</Filter>
+    </ClCompile>
+    <ClCompile Include="GhostPlatform.cpp">
+      <Filter>Unit\CollidableObject\GhostPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireball.cpp">
+      <Filter>Unit\Damager\Fireball</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>Unit\Mob\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="StraightFireBall.cpp">
+      <Filter>Unit\Mob\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="Koopa.cpp">
+      <Filter>Unit\Mob\Koopa</Filter>
+    </ClCompile>
+    <ClCompile Include="EatingPlant.cpp">
+      <Filter>Unit\Mob\Plant</Filter>
+    </ClCompile>
+    <ClCompile Include="RacoonTail.cpp">
+      <Filter>Unit\Damager\RacoonTail</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>Unit\CollidableObject\PowerUp</Filter>
+    </ClCompile>
+    <ClCompile Include="PButton.cpp">
+      <Filter>Unit\CollidableObject\PButton</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssetIDs.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Framework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Framework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animations.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationFrame.h">
+      <Filter>Framework\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Framework\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Framework\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>Framework\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Framework\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Framework\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Framework\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Unit\CollidableObject\Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Unit\CollidableObject\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="Goomba.h">
+      <Filter>Unit\Mob\Goomba</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Unit\CollidableObject\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEventHandler.h">
+      <Filter>Framework\KeyHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleKeyEventHandler.h">
+      <Filter>Framework\KeyHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="Portal.h">
+      <Filter>Unit\CollidableObject\Portal</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario.h">
+      <Filter>Unit\Controlable\Mario</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Framework\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyXML\tinyxml\tinystr.h">
+      <Filter>Framework\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyXML\tinyxml\tinyxml.h">
+      <Filter>Framework\TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Framework\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSet.h">
+      <Filter>Framework\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>Unit\CollidableObject\Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestionBrick.h">
+      <Filter>Unit\CollidableObject\QuestionBrick</Filter>
+    </ClInclude>
+    <ClInclude Include="GhostPlatform.h">
+      <Filter>Unit\CollidableObject\GhostPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireball.h">
+      <Filter>Unit\Damager\Fireball</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>Unit\Mob\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="StraightFireBall.h">
+      <Filter>Unit\Mob\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="Koopa.h">
+      <Filter>Unit\Mob\Koopa</Filter>
+    </ClInclude>
+    <ClInclude Include="EatingPlant.h">
+      <Filter>Unit\Mob\Plant</Filter>
+    </ClInclude>
+    <ClInclude Include="RacoonTail.h">
+      <Filter>Unit\Damager\RacoonTail</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Unit\CollidableObject\PowerUp</Filter>
+    </ClInclude>
+    <ClInclude Include="PButton.h">
+      <Filter>Unit\CollidableObject\PButton</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
